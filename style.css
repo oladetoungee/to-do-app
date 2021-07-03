@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Electrolize;
+}
+h1 {
+    text-align: center;
+    font-size: 8rem;
+    color: rgb(221, 179, 73);
+    opacity: 0.7;
+}
+form {
+    margin: 0 auto;
+    max-width: 100%;
+   width: 500px;
+   box-shadow: 5px  10px 10px rgb(243, 220, 160) ;
+}
+input {
+    padding: 1rem;
+    font-size: 2rem;
+    color: rgb(145, 110, 23);
+    display: block;
+    width: 100%;
+    border: none;
+
+}
+input::placeholder {
+    color: rgb(221, 179, 73);
+    
+}
+.todos {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+.todos li {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 700;
+    border-top: rgb(145, 110, 23) solid 2px;
+    
+
+}
+.todos li.completed {
+    color: rgb(221, 179, 73);
+    text-decoration: line-through;
+}
+small {
+   display: flex;
+   justify-content: center;
+   margin-top: 3rem;
+}
